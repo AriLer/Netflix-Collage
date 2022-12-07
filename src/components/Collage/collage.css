@@ -1,0 +1,64 @@
+#collage-container {
+  width: 15rem !important;
+  height: 25rem !important;
+}
+
+.poster-item {
+  transition-duration: 0.4s;
+  max-height: 7.5rem;
+  max-width: 5rem;
+}
+
+.poster-img {
+  max-width: 5rem;
+  border-radius: 10px;
+  box-shadow: #0000004d 0px 0px 5px 0px;
+  transition: opacity 0.3s;
+}
+
+.poster-item:not(.focus) > .poster-img:hover {
+  opacity: 0.9;
+}
+
+/* INFO Section */
+
+.poster-info {
+  color: #cecece !important;
+  font-size: 0.5rem !important;
+  padding: 0.1rem;
+  width: 6rem;
+  translate: -10px -2px;
+}
+
+.collage-ranking {
+  display: inline-block !important;
+  background-color: antiquewhite;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 2px;
+  font-size: 0.6rem;
+  color: #db0000;
+  translate: 5px 0px;
+}
+
+.last-watched {
+  display: inline-block !important;
+  width: 50%;
+  font-size: 0.45rem;
+  translate: 10px 4px;
+  color: #cecece;
+}
+
+.focus {
+  background-color: #283133;
+  opacity: 0.98;
+  border-radius: 8px !important;
+  transform: scale(2.2) !important;
+  filter: blur(0) !important;
+  z-index: 5 !important;
+  left: 7.5rem !important;
+  top: 9rem !important;
+  padding: 0.5rem;
+  max-height: 10rem !important;
+  max-width: 6rem !important;
+}

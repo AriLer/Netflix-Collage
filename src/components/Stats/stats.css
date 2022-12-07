@@ -1,0 +1,51 @@
+.chart {
+  background-color: #72737369;
+  border-radius: 12px;
+}
+
+#general-stats {
+  padding: 1.2rem 0.36rem 1rem 0.6rem;
+  height: 13rem;
+  width: 7rem;
+}
+
+#general-stats h2 {
+  font-size: 1.1rem;
+  color: #bebebe;
+  margin-bottom: 0.2rem;
+}
+
+#general-stats p {
+  color: black;
+  padding-left: 0.2rem;
+}
+
+#general-stats hr {
+  border-top: 2px solid !important;
+  margin: -0.3rem 0rem 0.9rem !important;
+  color: #000000d9 !important;
+  width: 80%;
+}
+
+#type-chart {
+  height: 13rem;
+  width: 11rem;
+  text-align: center;
+}
+
+#type-chart-title {
+  font-size: 1.2rem;
+  margin-top: -0.4rem !important;
+}
+
+#watchtime-chart {
+  height: 12.3rem;
+  padding: 1.3rem 0.3rem;
+  text-align: center;
+}
+
+#watchtime-chart h2 {
+  margin-bottom: 0rem;
+  margin-top: -0.2rem;
+  color: #bebebe;
+}

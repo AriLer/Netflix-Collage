@@ -1,0 +1,79 @@
+#share-row {
+  padding-top: 0.3rem;
+  background-color: #1c1c1c !important;
+  animation: fadeInFromNone 0.3s ease-out;
+  bottom: 0;
+}
+
+#download-btn {
+  height: 2.5rem;
+  width: 15.5rem;
+  font-size: 0.8rem;
+  background-color: #00000000 !important;
+  border-width: 0 !important;
+  margin-left: 2.5rem;
+}
+
+#download-btn div {
+  height: 2rem;
+  width: 2rem;
+  background-color: #c8c8c8;
+  translate: -6px -18%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#download-btn div img {
+  height: 1.1rem;
+  translate: 0 25%;
+}
+
+#history-btn {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #646464;
+  translate: 50% -10%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#history-btn img {
+  height: 1.2rem;
+  width: 1.3rem;
+  translate: 3% -7%;
+}
+
+/* History Modal */
+
+#history-modal {
+  top: 0.7rem;
+  right: 0.4rem;
+  background-color: #1c1c1c !important;
+  border-radius: 8px;
+}
+
+.modal-content {
+  background-color: #1c1c1c !important;
+}
+
+#history-modal-body {
+  background-color: #202627;
+  border-radius: 8px;
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}

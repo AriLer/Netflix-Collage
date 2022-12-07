@@ -1,0 +1,103 @@
+/* Elements */
+
+body {
+  background-color: #1c1c1c !important;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+h1 {
+  color: rgb(207, 211, 215) !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+}
+
+/* Start window */
+
+#start-window {
+  padding: 0.5rem 0 0 0.6rem;
+  width: 13rem;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#action-section {
+  margin: 0.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+#welcome-button {
+  background-color: #db0000 !important;
+  border: #db0000 !important;
+  margin-right: 3.5rem;
+}
+
+/* Main window */
+
+#main-window {
+  width: 21rem;
+  height: 31.8rem;
+  transition: all 0.3s ease-out !important;
+  background: linear-gradient(322deg, #000000 0%, #b52a2a 56%, #000000 100%);
+}
+
+/* Carousel */
+
+.carousel {
+  border-radius: 8px;
+  height: 29rem;
+}
+
+.carousel-item {
+  padding-top: 2rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
+  height: 29rem !important;
+  opacity: 0 !important;
+  transition: opacity cubic-bezier(0.19, 1, 0.22, 1) 0.3s !important;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  opacity: 0.3 !important;
+}
+
+.carousel-indicators {
+  top: 0.1rem !important;
+}
+.carousel-indicators button {
+  width: 45px !important;
+  margin-right: 6px !important;
+  margin-left: 6px !important;
+}
+
+/* Empty History */
+
+#empty-history {
+  background-color: #3b3535;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  margin: 0rem 2rem;
+  translate: 0rem 3rem;
+}
+
+#empty-history h1 {
+  line-height: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+#empty-history img {
+  width: 45%;
+}
+
+#empty-history p {
+  color: #988686;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}

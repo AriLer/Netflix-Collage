@@ -1,0 +1,56 @@
+.full-history {
+  overflow-y: scroll;
+  box-sizing: content-box;
+  height: 25rem;
+  width: 100%;
+}
+
+.full-history::-webkit-scrollbar {
+  display: none;
+}
+
+.item-card {
+  background-color: #3a4749;
+  padding: 0.4rem 0rem;
+  border-radius: 8px;
+  margin: 0.6rem -0.6rem !important;
+  margin-left: 0rem !important;
+  width: 99.5%;
+}
+
+.poster {
+  width: 3rem;
+  border-radius: 8px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-left: 0.4rem;
+}
+
+.item-info h1 {
+  color: rgb(206, 206, 206) !important;
+  font-size: 1.15rem !important;
+  margin-top: 0.4rem;
+}
+
+.item-info p {
+  color: rgb(157, 157, 157);
+  font-size: 0.75rem;
+  margin-bottom: 0rem;
+  translate: 0px -6px;
+  line-height: 0.9rem;
+  padding-left: 0.2rem;
+}
+
+.item-info h1 img {
+  height: 1.2rem;
+  translate: -4px -4px;
+}
+
+.full-history p {
+  color: #777777;
+  font-size: 0.7rem;
+}

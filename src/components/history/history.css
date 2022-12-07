@@ -1,0 +1,55 @@
+.full-history {
+  overflow-y: scroll;
+  box-sizing: content-box;
+  height: 25rem;
+  padding-left: 0.75rem;
+  width: 100%;
+}
+
+.full-history::-webkit-scrollbar {
+  display: none;
+}
+
+.item-card {
+  background-color: #3a4749 !important;
+  padding: 0.4rem 0rem !important;
+  border-radius: 8px !important;
+  margin: 0.6rem -0.6rem !important;
+  width: 99.5%;
+}
+
+.history-poster {
+  width: 3rem;
+  border-radius: 8px;
+}
+
+.history-item-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  padding-left: 0.4rem;
+}
+
+.title {
+  color: rgb(206, 206, 206) !important;
+  font-size: 1.15rem !important;
+}
+
+.ep-title {
+  color: rgb(157, 157, 157);
+  font-size: 0.75rem;
+  margin-bottom: 0rem;
+  transform: translateY(-6px);
+  line-height: 0.9rem;
+  padding-left: 0.2rem;
+}
+
+.rating-icon {
+  height: 1.2rem;
+  transform: translate(-4px, -4px);
+}
+
+.full-history p {
+  color: #777777;
+  font-size: 0.7rem;
+}
