@@ -1,0 +1,38 @@
+{
+  "name": "Netflix Collage",
+  "description": "View Your Netflix Stats and Create Your own Collage!",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Netflix Collage",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "run_at": "document_end",
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": ["scripting", "storage", "cookies", "nativeMessaging", "tabs"],
+  "host_permissions": ["*://*.netflix.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "inject.js",
+        "src/inject/inject.js",
+        "src/inject/inject.css"
+      ],
+      "matches": ["*://*.netflix.com/*"]
+    }
+  ]
+}
