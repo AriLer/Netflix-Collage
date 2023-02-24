@@ -23,7 +23,7 @@
       "js": ["contentScript.js"]
     }
   ],
-  "permissions": ["scripting", "storage", "cookies", "nativeMessaging", "tabs"],
+  "permissions": ["storage", "tabs"],
   "host_permissions": ["*://*.netflix.com/*"],
   "web_accessible_resources": [
     {
